@@ -17,6 +17,7 @@ const App = () => {
   return (
     <View>
       <View style={styles.container}>
+    <Text>Hello guys!</Text>
         <GoalInput onAddGoal={addGoalHandler} />
         {/* Flat List is better because if there is a lot of elements, Scroll View will not work very flexy */}
         <FlatList
